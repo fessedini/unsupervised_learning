@@ -1,4 +1,4 @@
-# Mental Health in Technology-related Jobs
+# Mental Health Employee Clustering
 
 ## Project Overview
 
@@ -50,10 +50,12 @@ Case_Study_ML/
 ├── data/
 │   └── raw/
 │       └── mental_health_data.csv     # Raw survey dataset
+├── notebooks/
+│   └── analysis.ipynb                 # Main analysis notebook
 ├── outputs/
 │   └── *.png                          # Generated visualizations
-├── analysis.ipynb                     # Main analysis notebook
-├── requirements.txt                   # Python dependencies
+├── requirements.txt                   # Minimal Python dependencies
+├── full_requirements.txt              # Full environment dependencies
 └── README.md                          # Project documentation
 ```
 
@@ -64,8 +66,8 @@ Case_Study_ML/
 ### 1. Clone the repository
 
 ```
-git clone https://github.com/fessedini/unsupervise_learning_temp.git
-cd unsupervise_learning_temp
+git clone https://github.com/fessedini/unsupervised_learning.git
+cd unsupervised_learning
 ```
 
 ### 2. Create and activate a virtual environment
