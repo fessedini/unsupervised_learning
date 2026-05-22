@@ -1,0 +1,26 @@
+# ============================
+# Python cache & bytecode files
+# ============================
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints/
+
+# ============================
+# Local environment folders
+# ============================
+.env/
+.venv/
+venv/
+.conda/
+
+# ============================
+# System and editor-specific files
+# ============================
+.DS_Store
+.vscode/
+*.code-workspace
+
+# ============================
+# Temporary / log files
+# ============================
+*.log
