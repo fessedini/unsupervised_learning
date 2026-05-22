@@ -35,7 +35,7 @@ As a data scientist, the task is to:
 ## Dataset
 
 This project uses a mental health survey dataset from technology-oriented employees.
-The dataset contains 1,433 participants and 63 features covering topics such as mental health disorders,
+The dataset contains 1433 participants and 63 features covering topics such as mental health disorders,
 workplace openness, employer support and treatment-seeking behavior.
 
 The dataset is not included in this repository due to licensing.
@@ -65,21 +65,21 @@ Case_Study_ML/
 
 ### 1. Clone the repository
 
-```
+```bash
 git clone https://github.com/fessedini/unsupervised_learning.git
 cd unsupervised_learning
 ```
 
 ### 2. Create and activate a virtual environment
 
-```
+```bash
 python3.9 -m venv venv
 source venv/bin/activate
 ```
 
 ### 3. Install dependencies
 
-```
+```bash
 pip install -r requirements.txt
 ```
 
@@ -120,6 +120,6 @@ values
 
 Open the Jupyter Notebook and run all cells:
 
-```
+```bash
 jupyter notebook analysis.ipynb
 ```
